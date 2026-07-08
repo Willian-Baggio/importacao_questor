@@ -14,7 +14,7 @@ class Application(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("Accounting Automation")
+        self.title("Importação Questor")
         self.geometry("700x650")
 
         self.selected_file = ""
