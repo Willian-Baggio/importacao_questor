@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python -m py_compile \"app.py\")",
+      "PowerShell(python -m py_compile \"app.py\" \"journal_generator.py\")"
+    ]
+  }
+}
