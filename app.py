@@ -1,5 +1,6 @@
 import customtkinter as ctk
-from tkinter import Tk, filedialog
+from tkinter import Tk, filedialog, messagebox
+from datetime import datetime
 from excel_reader import ExcelReader
 from report_parser import ReportParser
 from excel_reader import ExcelReader
@@ -25,27 +26,27 @@ class Application(ctk.CTk):
 
         title = ctk.CTkLabel(
             self,
-            text="Accounting Automation",
+            text="Importação Questor",
             font=("Arial", 22, "bold")
         )
         title.pack(pady=20)
 
         self.file_label = ctk.CTkLabel(
             self,
-            text="No file selected."
+            text="Nenhuma pasta selecionada."
         )
         self.file_label.pack()
 
         select_button = ctk.CTkButton(
             self,
-            text="Select Excel",
+            text="Selecione o Excel",
             command=self.select_file
         )
         select_button.pack(pady=10)
 
         date_label = ctk.CTkLabel(
             self,
-            text="Date"
+            text="Data"
         )
         date_label.pack(pady=(20, 5))
 
@@ -57,7 +58,7 @@ class Application(ctk.CTk):
 
         generate_button = ctk.CTkButton(
             self,
-            text="Generate Excel",
+            text="Gerar Excel",
             command=self.generate
         )
         generate_button.pack(pady=30)
@@ -86,6 +87,15 @@ class Application(ctk.CTk):
 
         report_date = self.date_entry.get()
 
+        try:
+            datetime.strptime(report_date, "%d/%m/%Y")
+        except ValueError:
+            messagebox.showerror(
+                "Data inválida",
+                "Por favor, insira uma data válida no formato DD/MM/AAAA."
+            )
+            return
+
         output = ExcelService.build_output_dataframe(
             dataframe,
             report_date
@@ -93,7 +103,7 @@ class Application(ctk.CTk):
 
         output_folder = JournalGenerator.resolve_run_folder(report_date)
 
-        output_path = output_folder / "Processed_Report.xlsx"
+        output_path = output_folder / "Relatório.xlsx"
 
         ExcelService.save(output, output_path)
 
@@ -111,7 +121,7 @@ class Application(ctk.CTk):
         self.selected_file = ""
 
         self.file_label.configure(
-            text="No file selected."
+            text="Nenhuma pasta selecionada."
     )
 
 def select_excel_file() -> str:
@@ -119,7 +129,7 @@ def select_excel_file() -> str:
     root.withdraw()
 
     file_path = filedialog.askopenfilename(
-        title="Select Excel File",
+        title="Selecione um arquivo Excel",
         filetypes=[("Excel Files", "*.xlsx *.xls")]
     )
 
@@ -144,7 +154,7 @@ def main():
     ExcelService.save(output, "output.xlsx")
     JournalGenerator.generate(output)
 
-    print("Excel generated successfully!")
+    print("Excel gerado com sucesso!")
 
 if __name__ == "__main__":
     app = Application()

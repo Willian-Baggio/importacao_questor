@@ -16,7 +16,7 @@ class JournalGenerator:
             "%d/%m/%Y"
         ).strftime("%m-%Y")
 
-        base_name = f"output-{month_year}"
+        base_name = f"Importação-{month_year}"
 
         folder = Path(base_name)
         suffix = 2

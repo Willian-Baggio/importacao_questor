@@ -1,5 +1,4 @@
-('C:\\Users\\Usuario\\OneDrive\\Videos\\Desktop\\Automation '
- '116\\build\\ImportaçãoQuestor\\PYZ-00.pyz',
+('C:\\Users\\Usuario\\OneDrive\\Videos\\Desktop\\importacao_questor\\build\\ImportaçãoQuestor\\PYZ-00.pyz',
  [('__future__',
    'C:\\Users\\Usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\__future__.py',
    'PYMODULE'),
@@ -226,8 +225,7 @@
    'C:\\Users\\Usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\concurrent\\interpreters\\_queues.py',
    'PYMODULE'),
   ('constants',
-   'C:\\Users\\Usuario\\OneDrive\\Videos\\Desktop\\Automation '
-   '116\\constants.py',
+   'C:\\Users\\Usuario\\OneDrive\\Videos\\Desktop\\importacao_questor\\constants.py',
    'PYMODULE'),
   ('contextlib',
    'C:\\Users\\Usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\contextlib.py',
@@ -548,12 +546,10 @@
    'C:\\Users\\Usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\et_xmlfile\\xmlfile.py',
    'PYMODULE'),
   ('excel_reader',
-   'C:\\Users\\Usuario\\OneDrive\\Videos\\Desktop\\Automation '
-   '116\\excel_reader.py',
+   'C:\\Users\\Usuario\\OneDrive\\Videos\\Desktop\\importacao_questor\\excel_reader.py',
    'PYMODULE'),
   ('excel_service',
-   'C:\\Users\\Usuario\\OneDrive\\Videos\\Desktop\\Automation '
-   '116\\excel_service.py',
+   'C:\\Users\\Usuario\\OneDrive\\Videos\\Desktop\\importacao_questor\\excel_service.py',
    'PYMODULE'),
   ('fileinput',
    'C:\\Users\\Usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\fileinput.py',
@@ -676,8 +672,7 @@
    'C:\\Users\\Usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\ipaddress.py',
    'PYMODULE'),
   ('journal_generator',
-   'C:\\Users\\Usuario\\OneDrive\\Videos\\Desktop\\Automation '
-   '116\\journal_generator.py',
+   'C:\\Users\\Usuario\\OneDrive\\Videos\\Desktop\\importacao_questor\\journal_generator.py',
    'PYMODULE'),
   ('json',
    'C:\\Users\\Usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\json\\__init__.py',
@@ -701,7 +696,7 @@
    'C:\\Users\\Usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\mimetypes.py',
    'PYMODULE'),
   ('models',
-   'C:\\Users\\Usuario\\OneDrive\\Videos\\Desktop\\Automation 116\\models.py',
+   'C:\\Users\\Usuario\\OneDrive\\Videos\\Desktop\\importacao_questor\\models.py',
    'PYMODULE'),
   ('multiprocessing',
    'C:\\Users\\Usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\multiprocessing\\__init__.py',
@@ -2615,8 +2610,7 @@
    'C:\\Users\\Usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\random.py',
    'PYMODULE'),
   ('report_parser',
-   'C:\\Users\\Usuario\\OneDrive\\Videos\\Desktop\\Automation '
-   '116\\report_parser.py',
+   'C:\\Users\\Usuario\\OneDrive\\Videos\\Desktop\\importacao_questor\\report_parser.py',
    'PYMODULE'),
   ('rlcompleter',
    'C:\\Users\\Usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\rlcompleter.py',
