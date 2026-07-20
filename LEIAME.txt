@@ -1,0 +1,14 @@
+Importação Questor
+========================================
+Obrigatoriamente o arquivo de relatório deve estar em .csv
+
+
+PASSO 1 - Gerar xlsx para a importação no sistema questor
+A) Passe o xlsx para dentro do usuário no servidos.
+B) De um duplo clique no arquivo "ImportacaoQuestor", escolha o xlsx que foi passado para o servidor, informe o dia/mês/ano da importação, após isso clique no botão "Geral Excel".
+
+
+SAÍDA
+---------------------------------------
+Saída dos arquivos: \\servidor\CONTABILIDADE\- RECEITAS E IMPOSTOS
+Será criado uma pasta com o nome 'Importações-mm-yyyy" e dentro terá um xlsx chamado relatório e uma pasta chamada importações, dentro de importações um xlsx com o CNPJ de cada empresa para importação no questor
