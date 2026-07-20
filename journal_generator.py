@@ -7,6 +7,7 @@ import pandas as pd
 class JournalGenerator:
 
     IMPORTS_FOLDER_NAME = "Importações"
+    SERVER_FOLDER = Path(r"\\servidor\CONTABILIDADE\- RECEITAS E IMPOSTOS")
 
     @staticmethod
     def resolve_run_folder(report_date: str) -> Path:
@@ -18,17 +19,20 @@ class JournalGenerator:
 
         base_name = f"Importação-{month_year}"
 
-        folder = Path(base_name)
+        folder = JournalGenerator.SERVER_FOLDER / base_name
         suffix = 2
 
         while folder.exists():
-            folder = Path(f"{base_name}({suffix})")
+            folder = (
+                JournalGenerator.SERVER_FOLDER /
+                f"{base_name}({suffix})"
+            )
             suffix += 1
 
         folder.mkdir(parents=True)
         (folder / JournalGenerator.IMPORTS_FOLDER_NAME).mkdir()
 
-        return folder
+        return folder   
 
     @staticmethod
     def generate(dataframe: pd.DataFrame, output_folder: Path):
