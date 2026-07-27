@@ -1,13 +1,13 @@
 from pathlib import Path
 from datetime import datetime
-
+from config import OUTPUT_ROOT_DIR
 import pandas as pd
 
 
 class JournalGenerator:
 
     IMPORTS_FOLDER_NAME = "Importações"
-    SERVER_FOLDER = Path(r"\\servidor\CONTABILIDADE\- RECEITAS E IMPOSTOS")
+    SERVER_FOLDER = OUTPUT_ROOT_DIR
 
     @staticmethod
     def resolve_run_folder(report_date: str) -> Path:
