@@ -107,7 +107,7 @@ class Application(ctk.CTk):
 
         ExcelService.save(output, output_path)
 
-        JournalGenerator.generate(output, output_folder)
+        JournalGenerator.generate(output, output_folder, report_date)
 
         self.clear_fields()
 

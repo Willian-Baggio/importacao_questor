@@ -35,16 +35,16 @@ class JournalGenerator:
         return folder   
 
     @staticmethod
-    def generate(dataframe: pd.DataFrame, output_folder: Path):
+    def generate(dataframe: pd.DataFrame, output_folder: Path, report_date):
 
         imports_folder = output_folder / JournalGenerator.IMPORTS_FOLDER_NAME
 
         for _, row in dataframe.iterrows():
 
-            JournalGenerator.generate_company_file(row, imports_folder)
+            JournalGenerator.generate_company_file(row, imports_folder, report_date)
 
     @staticmethod
-    def generate_company_file(row, imports_folder: Path):
+    def generate_company_file(row, imports_folder: Path, report_date):
 
         journal = JournalGenerator.build_journal_dataframe(row)
 
@@ -55,7 +55,12 @@ class JournalGenerator:
             row["Empresa"]
         )
 
-        file_path = imports_folder / f"{company_name}.xlsx"
+        year_month = datetime.strptime(
+            report_date,
+            "%d/%m/%Y"
+        ).strftime("%Y-%m")
+
+        file_path = imports_folder / f"{company_name} - {year_month}.xlsx"
 
         journal.to_excel(
             file_path,
