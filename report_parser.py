@@ -27,7 +27,9 @@ class ReportParser:
     @staticmethod
     def clean_currency(value: str) -> str:
         value = value.replace("R$", "").replace("\xa0", "").strip()
-        return value.replace(".", "")
+        value = value.replace(".", "")
+        value = value.replace(",", ".")
+        return float(value)
 
     @staticmethod
     def parse(rows: list[str]) -> pd.DataFrame:
@@ -40,12 +42,18 @@ class ReportParser:
 
             if len(block) != 7:
                 continue
+            
+            product = ReportParser.clean_currency(block[2])
+            devolution = ReportParser.clean_currency(block[4])
+            
+            calc_devolution = float(product) - float(devolution)
 
             records.append({
                 "CNPJ": block[0],
                 "Empresa": block[1],
-                "Produtos": ReportParser.clean_currency(block[2]),
+                "Produtos": product,
                 "Serviços": ReportParser.clean_currency(block[3]),
+                "Devolução": calc_devolution,
                 "Imposto DAS": ReportParser.clean_currency(block[6])
             })
 

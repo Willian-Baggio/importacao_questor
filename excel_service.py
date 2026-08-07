@@ -23,6 +23,11 @@ class ExcelService:
         output["Débito Serviços"] = "142"
         output["Crédito Serviços"] = "2703"
         output["Histórico Serviços"] = "3737"
+        
+        output["Devolução"] = dataframe["Devolução"]
+        output["Débito Devolução"] = "2772"
+        output["Crédito Devolução"] = "142"
+        output["Histórico Devolução"] = "87"
 
         output["Imposto DAS"] = dataframe["Imposto DAS"]
         output["Débito DAS"] = "2831"

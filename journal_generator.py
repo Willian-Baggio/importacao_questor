@@ -100,6 +100,15 @@ class JournalGenerator:
                 "HISTÓRICO": row["Histórico Serviços"],
                 "COMPLEMENTO": complement
             },
+            
+            {
+                "DATA": row["Data"],
+                "DEBITO": row["Débito Devolução"],
+                "CRÉDITO": row["Crédito Devolução"],
+                "VALOR": row["Devolução"],
+                "HISTÓRICO": row["Histórico Devolução"],
+                "COMPLEMENTO": complement
+            },
 
             {
                 "DATA": row["Data"],
