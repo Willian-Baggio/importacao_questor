@@ -1,5 +1,18 @@
 import pandas as pd
-from constants import *
+from constants import (
+    DAS_CREDIT,
+    DAS_DEBIT,
+    DAS_HISTORY,
+    DEVOLUTION_CREDIT,
+    DEVOLUTION_DEBIT,
+    DEVOLUTION_HISTORY,
+    PRODUCTS_CREDIT,
+    PRODUCTS_DEBIT,
+    PRODUCTS_HISTORY,
+    SERVICES_CREDIT,
+    SERVICES_DEBIT,
+    SERVICES_HISTORY,
+)
 
 class ExcelService:
 
@@ -15,24 +28,24 @@ class ExcelService:
         output["Empresa"] = dataframe["Empresa"]
 
         output["Produtos"] = dataframe["Produtos"]
-        output["Débito Produtos"] = "142"
-        output["Crédito Produtos"] = "2655"
-        output["Histórico Produtos"] = "3738"
+        output["Débito Produtos"] = PRODUCTS_DEBIT
+        output["Crédito Produtos"] = PRODUCTS_CREDIT
+        output["Histórico Produtos"] = PRODUCTS_HISTORY
 
         output["Serviços"] = dataframe["Serviços"]
-        output["Débito Serviços"] = "142"
-        output["Crédito Serviços"] = "2703"
-        output["Histórico Serviços"] = "3737"
-        
+        output["Débito Serviços"] = SERVICES_DEBIT
+        output["Crédito Serviços"] = SERVICES_CREDIT
+        output["Histórico Serviços"] = SERVICES_HISTORY
+
         output["Devolução"] = dataframe["Devolução"]
-        output["Débito Devolução"] = "2772"
-        output["Crédito Devolução"] = "142"
-        output["Histórico Devolução"] = "87"
+        output["Débito Devolução"] = DEVOLUTION_DEBIT
+        output["Crédito Devolução"] = DEVOLUTION_CREDIT
+        output["Histórico Devolução"] = DEVOLUTION_HISTORY
 
         output["Imposto DAS"] = dataframe["Imposto DAS"]
-        output["Débito DAS"] = "2831"
-        output["Crédito DAS"] = "1550"
-        output["Histórico DAS"] = "177"
+        output["Débito DAS"] = DAS_DEBIT
+        output["Crédito DAS"] = DAS_CREDIT
+        output["Histórico DAS"] = DAS_HISTORY
 
         output["Data"] = report_date
 
