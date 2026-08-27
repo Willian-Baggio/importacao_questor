@@ -3,7 +3,7 @@ import time
 
 import requests
 
-from src.config.endpoints import AUTH_LOGIN_URL, LIST_TRANSMITED_APURATION
+from src.config.endpoints import AUTH_LOGIN_URL, COMPANY_AUDIT, LIST_TRANSMITED_APURATION
 from src.config.settings import LISTING_PAGE_SIZE, MAX_RETRIES, REQUEST_TIMEOUT
 
 logger = logging.getLogger("automacao importacao para o questor")
@@ -92,7 +92,7 @@ class SittaxClient:
                 json={"paginacao": {"pageNumber": page_number, "pageSize": page_size}},
             )
 
-            tuples = (payload or {}).get("data", {}).get("dataset", {}).get("tuples", [])
+            tuples = (payload or {}).get("data", {}).get("dataSet", {}).get("tuples", [])
 
             companies.extend(tuples)
 
@@ -103,3 +103,24 @@ class SittaxClient:
 
         logger.info("Total de empresas retornadas pelo Sittax: %s", len(companies))
         return companies
+
+    def set_period_cookie(self, month: int, year: int) -> None:
+        value = f"{year:04d}-{month:02d}-01T03:00:00.000Z"
+        self.session.cookies.set("DataInicialSelecionada", value, domain=".sittax.com.br", path="/")
+        logger.info("Cookie DataInicialSelecionada definido como %s", value)
+
+    def get_return(self, cnpj: str) -> float:
+        if not self.token:
+            raise SittaxAPIError("É necessário fazer login antes de consultar devoluções")
+
+        payload = self._execute(
+            "POST",
+            COMPANY_AUDIT,
+            json={"empresasCNPJ": [cnpj], "transmitido": True},
+        )
+
+        total = (payload or {}).get("data", {}).get("total")
+
+        return float(total) if total else 0.0
+            
+            

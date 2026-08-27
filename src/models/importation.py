@@ -7,3 +7,4 @@ class ProductService:
     servico: float
     receita: float
     imposto: float
+    devolucao: float

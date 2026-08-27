@@ -1,10 +1,402 @@
-2026-08-24 10:14:58,667 [INFO] Iniciando automação de importação Sittax -> Questor para 07/2026
-2026-08-24 10:14:58,668 [ERROR] USER_EMAIL e/ou USER_PASSWORD não configurados no .env
-2026-08-24 10:15:22,776 [INFO] Iniciando automação de importação Sittax -> Questor para 07/2026
-2026-08-24 10:15:22,777 [ERROR] USER_EMAIL e/ou USER_PASSWORD não configurados no .env
-2026-08-24 10:16:04,345 [INFO] Iniciando automação de importação Sittax -> Questor para 07/2026
-2026-08-24 10:16:04,346 [ERROR] USER_EMAIL e/ou USER_PASSWORD não configurados no .env
-2026-08-24 10:16:28,118 [INFO] Iniciando automação de importação Sittax -> Questor para 07/2026
-2026-08-24 10:16:28,119 [ERROR] USER_EMAIL e/ou USER_PASSWORD não configurados no .env
-2026-08-24 10:17:27,328 [INFO] Iniciando automação de importação Sittax -> Questor para 07/2026
-2026-08-24 10:17:27,328 [ERROR] USER_EMAIL e/ou USER_PASSWORD não configurados no .env
+2026-08-27 10:53:05,867 [INFO] Iniciando automação de importação Sittax -> Questor para 07/2026
+2026-08-27 10:53:05,868 [INFO] Chamando POST https://autenticacao.sittax.com.br/api/auth/login (tentativa 1)
+2026-08-27 10:53:06,649 [INFO] Login no Sittax realizado com sucesso
+2026-08-27 10:53:06,649 [INFO] Processando competência 07/2026
+2026-08-27 10:53:06,649 [INFO] Cookie DataInicialSelecionada definido como 2026-07-01T03:00:00.000Z
+2026-08-27 10:53:06,649 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/lista-apuracao-transmitido (tentativa 1)
+2026-08-27 10:53:06,779 [INFO] Total de empresas retornadas pelo Sittax: 119
+2026-08-27 10:53:06,779 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:06,849 [INFO] Empresa processada: A & N DECORACOES E PAISAGISMO LTDA
+2026-08-27 10:53:06,849 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:06,921 [INFO] Empresa processada: A.S.A PET-SHOP E PRODUTOS VETERINARIOS LTDA
+2026-08-27 10:53:06,921 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:06,985 [INFO] Empresa processada: ANGHINONI & SALVATICO ADVOGADOS
+2026-08-27 10:53:06,985 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:07,063 [INFO] Empresa processada: ARAUCARIA TRUCK CENTER LTDA
+2026-08-27 10:53:07,063 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:07,127 [INFO] Empresa processada: ARCOIRO JOGOS ELETRONICOS LTDA
+2026-08-27 10:53:07,127 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:07,191 [INFO] Empresa processada: AS ASSESSORIA EM COMERCIO EXTERIOR LTDA.
+2026-08-27 10:53:07,192 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:07,256 [INFO] Empresa processada: AUGUSTUS CORPO & MENTE LTDA
+2026-08-27 10:53:07,256 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:07,316 [INFO] Empresa processada: AUTHENTICGAMES CANAL E PRODUCOES LTDA
+2026-08-27 10:53:07,316 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:07,375 [INFO] Empresa processada: B&T COMERCIO DE IMPORTADOS LTDA
+2026-08-27 10:53:07,375 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:07,469 [INFO] Empresa processada: BAHADOR AMINI ARABI
+2026-08-27 10:53:07,470 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:07,694 [INFO] Empresa processada: BENTO & SILVA TECNOLOGIA E GESTAO INTELIGENTE LTDA
+2026-08-27 10:53:07,695 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:07,783 [INFO] Empresa processada: BILLIKEN LTDA
+2026-08-27 10:53:07,783 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:07,848 [INFO] Empresa processada: BRUNO FRANCISCO DE CARVALHO LTDA
+2026-08-27 10:53:07,848 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:07,932 [INFO] Empresa processada: C & G COMERCIO DE PECAS E APARELHOS A GAS LTDA
+2026-08-27 10:53:07,932 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:08,006 [INFO] Empresa processada: CALC AUTOMACAO E PROCESSOS INDUSTRIAIS LTDA
+2026-08-27 10:53:08,007 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:08,078 [INFO] Empresa processada: CALC PROCESS AUTOMATION LTDA
+2026-08-27 10:53:08,078 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:08,147 [INFO] Empresa processada: CAMILA DIAS PSICOLOGIA, NEUROPSICOLOGIA & FORMACAO PROFISSIONAL
+2026-08-27 10:53:08,147 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:08,242 [INFO] Empresa processada: CANHA REPRESENTACOES COMERCIAIS LTDA
+2026-08-27 10:53:08,242 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:08,314 [INFO] Empresa processada: CAROLINA PORTES ARQUITETURA LTDA
+2026-08-27 10:53:08,315 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:08,378 [INFO] Empresa processada: CMD SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:08,378 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:08,446 [INFO] Empresa processada: CR BIKES LTDA
+2026-08-27 10:53:08,446 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:08,518 [INFO] Empresa processada: CWB USINAGEM, TORNO E FRESA LTDA
+2026-08-27 10:53:08,519 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:08,597 [INFO] Empresa processada: CYCLO RIDE ARTIGOS ESPORTIVOS LTDA
+2026-08-27 10:53:08,597 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:08,662 [INFO] Empresa processada: DANILO VALENTE SETIN
+2026-08-27 10:53:08,662 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:08,723 [INFO] Empresa processada: DEFOL SERVICOS ESPECIALIZADOS LTDA
+2026-08-27 10:53:08,723 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:08,787 [INFO] Empresa processada: DESIMEC - PROJETOS E ENGENHARIA LTDA
+2026-08-27 10:53:08,788 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:08,852 [INFO] Empresa processada: DIAMOND CONSULTORIA LTDA
+2026-08-27 10:53:08,852 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:08,915 [INFO] Empresa processada: DOVITO LTDA
+2026-08-27 10:53:08,915 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:08,986 [INFO] Empresa processada: E MODAS LTDA
+2026-08-27 10:53:08,986 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:09,059 [INFO] Empresa processada: E R FRANKE SERVICOS LTDA
+2026-08-27 10:53:09,059 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:09,137 [INFO] Empresa processada: E S SERVICOS ADMINISTRATIVOS LIMITADA
+2026-08-27 10:53:09,137 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:09,204 [INFO] Empresa processada: ELETRON CORRETORA DE SEGUROS LTDA
+2026-08-27 10:53:09,204 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:09,276 [INFO] Empresa processada: ELIANA PSICOLOGIA
+2026-08-27 10:53:09,276 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:09,358 [INFO] Empresa processada: EQUIPE IDEAL COMERCIO LTDA
+2026-08-27 10:53:09,358 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:09,424 [INFO] Empresa processada: EVELIN RAMIRO LTDA
+2026-08-27 10:53:09,424 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:09,485 [INFO] Empresa processada: FERNANDA DIAS EQUILIBRIO E SAUDE LTDA
+2026-08-27 10:53:09,485 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:09,579 [INFO] Empresa processada: GD SOLUCOES EM TI LTDA
+2026-08-27 10:53:09,579 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:09,647 [INFO] Empresa processada: GDINFO COMERCIO E SERVICOS DE INFORMATICA LTDA
+2026-08-27 10:53:09,647 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:09,709 [INFO] Empresa processada: GIOVELLI ASSESSORIA MEDICO LEGAL LTDA
+2026-08-27 10:53:09,710 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:09,798 [INFO] Empresa processada: GJB ENGENHARIA E PERICIAS LTDA
+2026-08-27 10:53:09,799 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:09,857 [INFO] Empresa processada: GUERRA SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:09,857 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:09,921 [INFO] Empresa processada: HA-TECNO PESQUISA E DESENVOLVIMENTO EM TECNOLOGIA LTDA
+2026-08-27 10:53:09,922 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:09,990 [INFO] Empresa processada: HENRIQUE DIETRICH SOCIEDADE INDIVIDUAL DE ADVOCACIA
+2026-08-27 10:53:09,990 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:10,055 [INFO] Empresa processada: HYLA BIOTECH LTDA
+2026-08-27 10:53:10,055 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:10,122 [INFO] Empresa processada: IDI - INSTITUTO DE DESENHO INSTRUCIONAL LTDA
+2026-08-27 10:53:10,122 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:10,189 [INFO] Empresa processada: INFA CONSULTORIA LTDA
+2026-08-27 10:53:10,189 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:10,254 [INFO] Empresa processada: J2R GESTAO E SERVICOS LTDA
+2026-08-27 10:53:10,254 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:10,318 [INFO] Empresa processada: JOAO MARCELO SILVA PEREIRA APOIO ADMINISTRATIVO
+2026-08-27 10:53:10,318 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:10,385 [INFO] Empresa processada: JOSE GOMES SILVA MATERIAIS PERUIBE
+2026-08-27 10:53:10,385 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:10,451 [INFO] Empresa processada: JS SILVA SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:10,451 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:10,512 [INFO] Empresa processada: KDA SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:10,512 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:10,580 [INFO] Empresa processada: KDV64 SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:10,580 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:10,646 [INFO] Empresa processada: KLS ESTUDIO LTDA
+2026-08-27 10:53:10,647 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:10,710 [INFO] Empresa processada: KLS PROJETOS & NEGOCIOS LTDA
+2026-08-27 10:53:10,710 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:10,774 [INFO] Empresa processada: KOCH PECAS E BIKES LTDA
+2026-08-27 10:53:10,774 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:10,865 [INFO] Empresa processada: KROP JOGOS DIGITAIS LTDA
+2026-08-27 10:53:10,865 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:10,926 [INFO] Empresa processada: LF CIDADANIA LTDA
+2026-08-27 10:53:10,927 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:10,991 [INFO] Empresa processada: LGG HISTORIA ARTE E CULTURA LTDA
+2026-08-27 10:53:10,991 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:11,069 [INFO] Empresa processada: LISER RESINAS E SILICONES LTDA
+2026-08-27 10:53:11,070 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:11,131 [INFO] Empresa processada: LKL GESTAO FINANCEIRA E ADMINISTRATIVA LTDA
+2026-08-27 10:53:11,132 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:11,196 [INFO] Empresa processada: LMJ SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:11,196 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:11,265 [INFO] Empresa processada: LOVATECH SISTEMAS DE SEGURANCA LTDA
+2026-08-27 10:53:11,265 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:11,331 [INFO] Empresa processada: M R CIDRE SERVICOS LTDA
+2026-08-27 10:53:11,331 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:11,389 [INFO] Empresa processada: M RANGEL ASSESSORIA E CONSULTORIA EMPRESARIAL LTDA
+2026-08-27 10:53:11,389 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:11,453 [INFO] Empresa processada: M VIANA VESTUARIO LTDA
+2026-08-27 10:53:11,453 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:11,530 [INFO] Empresa processada: M2V SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:11,532 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:11,635 [INFO] Empresa processada: MARIA LIGIA GOMES GONCALVES
+2026-08-27 10:53:11,635 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:11,725 [INFO] Empresa processada: MARIANA AMARAL DE ANDRADE COUTINHO CONSULTORIA EMPRESARIAL
+2026-08-27 10:53:11,725 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:11,807 [INFO] Empresa processada: MARIANA R L FERRAZ SERVICOS ADMINISTRATIVOS
+2026-08-27 10:53:11,807 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:11,878 [INFO] Empresa processada: MARINTTI LTDA
+2026-08-27 10:53:11,878 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:11,950 [INFO] Empresa processada: MARISE CESTARI PAULO
+2026-08-27 10:53:11,951 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:12,018 [INFO] Empresa processada: MIDAS COMPANY LTDA
+2026-08-27 10:53:12,018 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:12,079 [INFO] Empresa processada: MORELLI REPRESENTACOES COMERCIAIS LTDA
+2026-08-27 10:53:12,079 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:12,136 [INFO] Empresa processada: MORO MEDICOS ASSOCIADOS LTDA
+2026-08-27 10:53:12,136 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:12,198 [INFO] Empresa processada: NIGLES JOGOS E SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:12,198 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:12,259 [INFO] Empresa processada: ONI AGENCIA COMUNICACAO LTDA
+2026-08-27 10:53:12,259 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:12,328 [INFO] Empresa processada: ORCA CENTRO DE TREINAMENTOS LTDA
+2026-08-27 10:53:12,329 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:12,397 [INFO] Empresa processada: ORGANIZACAO DA NATUREZA HUMANA LTDA
+2026-08-27 10:53:12,397 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:12,463 [INFO] Empresa processada: PENSE FORA DA CAIXA PRODUCOES DIGITAIS LTDA
+2026-08-27 10:53:12,463 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:12,528 [INFO] Empresa processada: PICCOLI DESIGN LTDA
+2026-08-27 10:53:12,528 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:12,593 [INFO] Empresa processada: POTENCIAL RECRUTAMENTO LTDA
+2026-08-27 10:53:12,593 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:12,689 [INFO] Empresa processada: PRIME FEMME COMERCIO LTDA
+2026-08-27 10:53:12,689 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:12,771 [INFO] Empresa processada: PROSPERUS GESTAO EMPRESARIAL LTDA
+2026-08-27 10:53:12,772 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:12,843 [INFO] Empresa processada: PVIGAR JOGOS DIGITAIS LTDA
+2026-08-27 10:53:12,843 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:12,913 [INFO] Empresa processada: QUALIDADE CRIATIVA - GESTAO EMPRESARIAL E EDUCACAO LTDA
+2026-08-27 10:53:12,913 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:12,994 [INFO] Empresa processada: R. SANTOS ENGENHARIA & CONSTRUCAO LTDA
+2026-08-27 10:53:12,994 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:13,074 [INFO] Empresa processada: R2J ASSESSORIA ADMINISTRATIVA & FINANCEIRA LTDA
+2026-08-27 10:53:13,075 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:13,163 [INFO] Empresa processada: RAFAEL AUGUSTO BUCH JACOB SOCIEDADE INDIVIDUAL DE ADVOCACIA
+2026-08-27 10:53:13,163 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:13,247 [INFO] Empresa processada: RAFAEL SATO 04111248977
+2026-08-27 10:53:13,247 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:13,313 [INFO] Empresa processada: RESIL CHEMICAL LTDA
+2026-08-27 10:53:13,313 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:13,384 [INFO] Empresa processada: RF MARTINS SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:13,384 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:13,449 [INFO] Empresa processada: RICARDO DIAS MORETTO
+2026-08-27 10:53:13,450 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:13,519 [INFO] Empresa processada: RMA ASSESSORIA EM COMEX LTDA
+2026-08-27 10:53:13,520 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:13,592 [INFO] Empresa processada: ROCCIA LTDA
+2026-08-27 10:53:13,593 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:13,662 [INFO] Empresa processada: RPR LOGISTICS EMPRESARIAL LTDA
+2026-08-27 10:53:13,662 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:13,724 [INFO] Empresa processada: RS ESTRUTURAS E MONTAGENS LTDA
+2026-08-27 10:53:13,724 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:13,798 [INFO] Empresa processada: RSD SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:13,798 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:13,860 [INFO] Empresa processada: SARA ALVES VIDAL REPRESENTACOES COMERCIAIS
+2026-08-27 10:53:13,861 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:13,935 [INFO] Empresa processada: SCOPO PORTAL DE SERVICOS DE INFORMACAO LTDA
+2026-08-27 10:53:13,936 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:13,998 [INFO] Empresa processada: SK GLOBAL LOGISTICA E AGENCIAMENTO LTDA
+2026-08-27 10:53:13,998 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:14,060 [INFO] Empresa processada: SKTRANSFER LTDA
+2026-08-27 10:53:14,060 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:14,122 [INFO] Empresa processada: SOLUCOES INTANGIVEIS LTDA
+2026-08-27 10:53:14,122 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:14,209 [INFO] Empresa processada: SPREADCHEATS SOLUCOES LTDA
+2026-08-27 10:53:14,209 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:14,271 [INFO] Empresa processada: SPRENGEL E DAMACENO ASSESSORIA EMPRESARIAL LTDA
+2026-08-27 10:53:14,271 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:14,327 [INFO] Empresa processada: SPUNTINO ALIMENTOS LTDA
+2026-08-27 10:53:14,327 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:14,388 [INFO] Empresa processada: SURFITNESS SYSTEM LTDA
+2026-08-27 10:53:14,389 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:14,452 [INFO] Empresa processada: T L W SACERDOTE PROMOCOES E VENDAS LTDA
+2026-08-27 10:53:14,452 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:14,512 [INFO] Empresa processada: T-KRAUZE SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:14,512 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:14,600 [INFO] Empresa processada: T&P PARTNERS LTDA
+2026-08-27 10:53:14,600 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:14,663 [INFO] Empresa processada: TAMBOSI SOLUCOES ADMINISTRATIVAS LTDA
+2026-08-27 10:53:14,663 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:14,724 [INFO] Empresa processada: TEMPO DE VIVER INDUSTRIA E COMERCIO DE ARTEFATOS DE METAIS LTDA
+2026-08-27 10:53:14,724 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:14,821 [INFO] Empresa processada: TOURINHO & ORUE ARTIGOS ESPORTIVOS LTDA
+2026-08-27 10:53:14,822 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:14,881 [INFO] Empresa processada: TRADE WIN LTDA
+2026-08-27 10:53:14,881 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:14,943 [INFO] Empresa processada: TRAPELUS AUTOMACAO INDUSTRIAL LTDA
+2026-08-27 10:53:14,943 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:15,040 [INFO] Empresa processada: VZB JOGOS ONLINE LTDA
+2026-08-27 10:53:15,041 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:15,141 [INFO] Empresa processada: W.V SERVICOS VETERINARIOS LTDA
+2026-08-27 10:53:15,141 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:15,216 [INFO] Empresa processada: WT ENGENHARIA LTDA
+2026-08-27 10:53:15,216 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:15,313 [INFO] Empresa processada: ZORNIG & ZORNIG LTDA
+2026-08-27 10:53:15,313 [INFO] Chamando POST https://api.sittax.com.br/api/v2/painel-contador/auditoria-empresa (tentativa 1)
+2026-08-27 10:53:15,396 [INFO] Empresa processada: ZUNIGAFITNESS ROUPAS FITNESS LTDA
+2026-08-27 10:53:15,397 [INFO] 119 empresa(s) processada(s) com sucesso
+2026-08-27 10:53:15,960 [INFO] Empresa ANGHINONI & SALVATICO ADVOGADOS sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:16,495 [INFO] Empresa B&T COMERCIO DE IMPORTADOS LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:17,522 [INFO] Empresa CYCLO RIDE ARTIGOS ESPORTIVOS LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:17,691 [INFO] Empresa DESIMEC - PROJETOS E ENGENHARIA LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:17,692 [INFO] Empresa DIAMOND CONSULTORIA LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:17,692 [INFO] Empresa DOVITO LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:18,392 [INFO] Empresa GDINFO COMERCIO E SERVICOS DE INFORMATICA LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:18,392 [INFO] Empresa GIOVELLI ASSESSORIA MEDICO LEGAL LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:18,469 [INFO] Empresa GUERRA SERVICOS ADMINISTRATIVOS LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:18,614 [INFO] Empresa HYLA BIOTECH LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:18,614 [INFO] Empresa IDI - INSTITUTO DE DESENHO INSTRUCIONAL LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:18,696 [INFO] Empresa J2R GESTAO E SERVICOS LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:18,782 [INFO] Empresa JOSE GOMES SILVA MATERIAIS PERUIBE sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:18,782 [INFO] Empresa JS SILVA SERVICOS ADMINISTRATIVOS LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:18,968 [INFO] Empresa KLS ESTUDIO LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:18,968 [INFO] Empresa KLS PROJETOS & NEGOCIOS LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:19,043 [INFO] Empresa KROP JOGOS DIGITAIS LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:19,044 [INFO] Empresa LF CIDADANIA LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:19,044 [INFO] Empresa LGG HISTORIA ARTE E CULTURA LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:19,489 [INFO] Empresa M RANGEL ASSESSORIA E CONSULTORIA EMPRESARIAL LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:19,964 [INFO] Empresa MARINTTI LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:20,076 [INFO] Empresa MIDAS COMPANY LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:20,403 [INFO] Empresa ORCA CENTRO DE TREINAMENTOS LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:20,818 [INFO] Empresa PROSPERUS GESTAO EMPRESARIAL LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:20,986 [INFO] Empresa R. SANTOS ENGENHARIA & CONSTRUCAO LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:20,986 [INFO] Empresa R2J ASSESSORIA ADMINISTRATIVA & FINANCEIRA LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:21,077 [INFO] Empresa RAFAEL SATO 04111248977 sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:21,078 [INFO] Empresa RESIL CHEMICAL LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:21,078 [INFO] Empresa RF MARTINS SERVICOS ADMINISTRATIVOS LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:21,254 [INFO] Empresa ROCCIA LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:21,411 [INFO] Empresa RSD SERVICOS ADMINISTRATIVOS LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:21,516 [INFO] Empresa SCOPO PORTAL DE SERVICOS DE INFORMACAO LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:21,666 [INFO] Empresa SOLUCOES INTANGIVEIS LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:21,743 [INFO] Empresa SPRENGEL E DAMACENO ASSESSORIA EMPRESARIAL LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:21,744 [INFO] Empresa SPUNTINO ALIMENTOS LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:22,264 [INFO] Empresa TRADE WIN LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:22,265 [INFO] Empresa TRAPELUS AUTOMACAO INDUSTRIAL LTDA sem valores no período - nenhum arquivo gerado
+2026-08-27 10:53:22,791 [INFO] Arquivo xlsx gerado para a empresa A & N DECORACOES E PAISAGISMO LTDA
+2026-08-27 10:53:22,791 [INFO] Arquivo xlsx gerado para a empresa A.S.A PET-SHOP E PRODUTOS VETERINARIOS LTDA
+2026-08-27 10:53:22,791 [INFO] Arquivo xlsx gerado para a empresa ANGHINONI & SALVATICO ADVOGADOS
+2026-08-27 10:53:22,791 [INFO] Arquivo xlsx gerado para a empresa ARAUCARIA TRUCK CENTER LTDA
+2026-08-27 10:53:22,791 [INFO] Arquivo xlsx gerado para a empresa ARCOIRO JOGOS ELETRONICOS LTDA
+2026-08-27 10:53:22,791 [INFO] Arquivo xlsx gerado para a empresa AS ASSESSORIA EM COMERCIO EXTERIOR LTDA.
+2026-08-27 10:53:22,791 [INFO] Arquivo xlsx gerado para a empresa AUGUSTUS CORPO & MENTE LTDA
+2026-08-27 10:53:22,791 [INFO] Arquivo xlsx gerado para a empresa AUTHENTICGAMES CANAL E PRODUCOES LTDA
+2026-08-27 10:53:22,791 [INFO] Arquivo xlsx gerado para a empresa B&T COMERCIO DE IMPORTADOS LTDA
+2026-08-27 10:53:22,791 [INFO] Arquivo xlsx gerado para a empresa BAHADOR AMINI ARABI
+2026-08-27 10:53:22,791 [INFO] Arquivo xlsx gerado para a empresa BENTO & SILVA TECNOLOGIA E GESTAO INTELIGENTE LTDA
+2026-08-27 10:53:22,791 [INFO] Arquivo xlsx gerado para a empresa BILLIKEN LTDA
+2026-08-27 10:53:22,791 [INFO] Arquivo xlsx gerado para a empresa BRUNO FRANCISCO DE CARVALHO LTDA
+2026-08-27 10:53:22,791 [INFO] Arquivo xlsx gerado para a empresa C & G COMERCIO DE PECAS E APARELHOS A GAS LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa CALC AUTOMACAO E PROCESSOS INDUSTRIAIS LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa CALC PROCESS AUTOMATION LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa CAMILA DIAS PSICOLOGIA, NEUROPSICOLOGIA & FORMACAO PROFISSIONAL
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa CANHA REPRESENTACOES COMERCIAIS LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa CAROLINA PORTES ARQUITETURA LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa CMD SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa CR BIKES LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa CWB USINAGEM, TORNO E FRESA LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa CYCLO RIDE ARTIGOS ESPORTIVOS LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa DANILO VALENTE SETIN
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa DEFOL SERVICOS ESPECIALIZADOS LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa DESIMEC - PROJETOS E ENGENHARIA LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa DIAMOND CONSULTORIA LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa DOVITO LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa E MODAS LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa E R FRANKE SERVICOS LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa E S SERVICOS ADMINISTRATIVOS LIMITADA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa ELETRON CORRETORA DE SEGUROS LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa ELIANA PSICOLOGIA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa EQUIPE IDEAL COMERCIO LTDA
+2026-08-27 10:53:22,792 [INFO] Arquivo xlsx gerado para a empresa EVELIN RAMIRO LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa FERNANDA DIAS EQUILIBRIO E SAUDE LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa GD SOLUCOES EM TI LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa GDINFO COMERCIO E SERVICOS DE INFORMATICA LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa GIOVELLI ASSESSORIA MEDICO LEGAL LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa GJB ENGENHARIA E PERICIAS LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa GUERRA SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa HA-TECNO PESQUISA E DESENVOLVIMENTO EM TECNOLOGIA LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa HENRIQUE DIETRICH SOCIEDADE INDIVIDUAL DE ADVOCACIA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa HYLA BIOTECH LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa IDI - INSTITUTO DE DESENHO INSTRUCIONAL LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa INFA CONSULTORIA LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa J2R GESTAO E SERVICOS LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa JOAO MARCELO SILVA PEREIRA APOIO ADMINISTRATIVO
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa JOSE GOMES SILVA MATERIAIS PERUIBE
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa JS SILVA SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa KDA SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa KDV64 SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa KLS ESTUDIO LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa KLS PROJETOS & NEGOCIOS LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa KOCH PECAS E BIKES LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa KROP JOGOS DIGITAIS LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa LF CIDADANIA LTDA
+2026-08-27 10:53:22,793 [INFO] Arquivo xlsx gerado para a empresa LGG HISTORIA ARTE E CULTURA LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa LISER RESINAS E SILICONES LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa LKL GESTAO FINANCEIRA E ADMINISTRATIVA LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa LMJ SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa LOVATECH SISTEMAS DE SEGURANCA LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa M R CIDRE SERVICOS LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa M RANGEL ASSESSORIA E CONSULTORIA EMPRESARIAL LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa M VIANA VESTUARIO LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa M2V SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa MARIA LIGIA GOMES GONCALVES
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa MARIANA AMARAL DE ANDRADE COUTINHO CONSULTORIA EMPRESARIAL
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa MARIANA R L FERRAZ SERVICOS ADMINISTRATIVOS
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa MARINTTI LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa MARISE CESTARI PAULO
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa MIDAS COMPANY LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa MORELLI REPRESENTACOES COMERCIAIS LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa MORO MEDICOS ASSOCIADOS LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa NIGLES JOGOS E SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa ONI AGENCIA COMUNICACAO LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa ORCA CENTRO DE TREINAMENTOS LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa ORGANIZACAO DA NATUREZA HUMANA LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa PENSE FORA DA CAIXA PRODUCOES DIGITAIS LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa PICCOLI DESIGN LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa POTENCIAL RECRUTAMENTO LTDA
+2026-08-27 10:53:22,794 [INFO] Arquivo xlsx gerado para a empresa PRIME FEMME COMERCIO LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa PROSPERUS GESTAO EMPRESARIAL LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa PVIGAR JOGOS DIGITAIS LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa QUALIDADE CRIATIVA - GESTAO EMPRESARIAL E EDUCACAO LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa R. SANTOS ENGENHARIA & CONSTRUCAO LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa R2J ASSESSORIA ADMINISTRATIVA & FINANCEIRA LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa RAFAEL AUGUSTO BUCH JACOB SOCIEDADE INDIVIDUAL DE ADVOCACIA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa RAFAEL SATO 04111248977
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa RESIL CHEMICAL LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa RF MARTINS SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa RICARDO DIAS MORETTO
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa RMA ASSESSORIA EM COMEX LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa ROCCIA LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa RPR LOGISTICS EMPRESARIAL LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa RS ESTRUTURAS E MONTAGENS LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa RSD SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa SARA ALVES VIDAL REPRESENTACOES COMERCIAIS
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa SCOPO PORTAL DE SERVICOS DE INFORMACAO LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa SK GLOBAL LOGISTICA E AGENCIAMENTO LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa SKTRANSFER LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa SOLUCOES INTANGIVEIS LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa SPREADCHEATS SOLUCOES LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa SPRENGEL E DAMACENO ASSESSORIA EMPRESARIAL LTDA
+2026-08-27 10:53:22,795 [INFO] Arquivo xlsx gerado para a empresa SPUNTINO ALIMENTOS LTDA
+2026-08-27 10:53:22,796 [INFO] Arquivo xlsx gerado para a empresa SURFITNESS SYSTEM LTDA
+2026-08-27 10:53:22,796 [INFO] Arquivo xlsx gerado para a empresa T L W SACERDOTE PROMOCOES E VENDAS LTDA
+2026-08-27 10:53:22,796 [INFO] Arquivo xlsx gerado para a empresa T-KRAUZE SERVICOS ADMINISTRATIVOS LTDA
+2026-08-27 10:53:22,796 [INFO] Arquivo xlsx gerado para a empresa T&P PARTNERS LTDA
+2026-08-27 10:53:22,796 [INFO] Arquivo xlsx gerado para a empresa TAMBOSI SOLUCOES ADMINISTRATIVAS LTDA
+2026-08-27 10:53:22,796 [INFO] Arquivo xlsx gerado para a empresa TEMPO DE VIVER INDUSTRIA E COMERCIO DE ARTEFATOS DE METAIS LTDA
+2026-08-27 10:53:22,796 [INFO] Arquivo xlsx gerado para a empresa TOURINHO & ORUE ARTIGOS ESPORTIVOS LTDA
+2026-08-27 10:53:22,796 [INFO] Arquivo xlsx gerado para a empresa TRADE WIN LTDA
+2026-08-27 10:53:22,796 [INFO] Arquivo xlsx gerado para a empresa TRAPELUS AUTOMACAO INDUSTRIAL LTDA
+2026-08-27 10:53:22,796 [INFO] Arquivo xlsx gerado para a empresa VZB JOGOS ONLINE LTDA
+2026-08-27 10:53:22,796 [INFO] Arquivo xlsx gerado para a empresa W.V SERVICOS VETERINARIOS LTDA
+2026-08-27 10:53:22,796 [INFO] Arquivo xlsx gerado para a empresa WT ENGENHARIA LTDA
+2026-08-27 10:53:22,796 [INFO] Arquivo xlsx gerado para a empresa ZORNIG & ZORNIG LTDA
+2026-08-27 10:53:22,796 [INFO] Arquivo xlsx gerado para a empresa ZUNIGAFITNESS ROUPAS FITNESS LTDA

@@ -40,6 +40,8 @@ def run_for_competence(month: int, year: int) -> None:
         return
 
     try:
+        run_date = date.today()
+
         sittax_client = SittaxClient(email, password)
         sittax_client.login()
 
@@ -51,7 +53,7 @@ def run_for_competence(month: int, year: int) -> None:
         if failed_companies:
             logger.warning(f"{len(failed_companies)} empresa(s) com erro no processamento")
 
-        generate_journals(processed_companies, failed_companies, month, year, date.today())
+        generate_journals(processed_companies, failed_companies, month, year, run_date)
 
         for company in processed_companies:
             logger.info(f"Arquivo xlsx gerado para a empresa {company.empresa}")

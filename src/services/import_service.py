@@ -19,6 +19,8 @@ class ImportationService:
 
         self.logger.info(f"Processando competência {competence}")
 
+        self.client.set_period_cookie(month, year)
+
         company_data = self.client.get_company_data()
 
         for data in company_data:
@@ -39,12 +41,16 @@ class ImportationService:
         if not empresa:
             raise ValueError("Empresa sem nome retornada pelo Sittax")
 
+        cnpj = data.get("cnpj")
+        devolucao = self.client.get_return(cnpj) if cnpj else 0.0
+
         return ProductService(
             empresa=empresa,
             produto=float(data.get("produto") or 0),
             servico=float(data.get("servico") or 0),
             receita=float(data.get("receita") or 0),
             imposto=float(data.get("imposto") or 0),
+            devolucao=devolucao,
         )
 
     def get_processed_company(self) -> list[ProductService]:
