@@ -67,7 +67,7 @@ importacao_questor/
 ## Configuração
 
 - `.env` (na raiz do projeto): deve conter `USER_EMAIL` e
-  `USER_PASSWORD`, lidos via `os.getenv()` em `src/app.py` — são as
+  `USER_PASSWORD`, lidos via `os.getenv()` em `src/app.py`, são as
   credenciais de login na API Sittax. Se ausentes, a execução do Fluxo
   A termina antes de processar qualquer empresa (`src/app.py`: `if not
   email or not password: logger.error(...); return`).
@@ -78,7 +78,7 @@ importacao_questor/
   Fluxo A).
 - `src/config/endpoints.py`: URLs da API Sittax (login, listagem de
   apuração transmitida, auditoria de empresa/devolução).
-- `config.py` (raiz, Fluxo B): `OUTPUT_ROOT_DIR` — raiz de saída do
+- `config.py` (raiz, Fluxo B): `OUTPUT_ROOT_DIR`, raiz de saída do
   fluxo legado, já inclui o segmento `\CONCLUIDO`.
 - `constants.py` (raiz, compartilhado pelos dois fluxos): pares
   `*_DEBIT`/`*_CREDIT`/`*_HISTORY` para as 4 categorias de lançamento.
@@ -95,7 +95,7 @@ do sistema no momento da execução.
 
 **Fluxo B (legado, manual):**
 Executar o executável empacotado (`ImportaçãoQuestor.spec` → `app.py`),
-duplo clique, selecionar o arquivo de relatório (`.xlsx`/`.xls` — **não**
+duplo clique, selecionar o arquivo de relatório (`.xlsx`/`.xls`, **não**
 `.csv`), digitar a data no formato `DD/MM/AAAA` 
 e clicar em "Gerar Excel".
 
@@ -108,7 +108,7 @@ e clicar em "Gerar Excel".
   paginada de empresas, `LISTING_PAGE_SIZE=500`, laço `while True` até
   a página retornar menos itens que o tamanho da página).
 - Resposta JSON de `POST .../auditoria-empresa` (valor de devolução,
-  por CNPJ — só chamada quando a empresa tem CNPJ).
+  por CNPJ, só chamada quando a empresa tem CNPJ).
 - Data do sistema no momento da execução (`date.today()`), usada para
   calcular a competência (mês anterior).
 
@@ -128,14 +128,14 @@ e clicar em "Gerar Excel".
   HISTÓRICO, COMPLEMENTO`. Só é gerado se ao menos um dos 4 candidatos
   de lançamento não for zero (`journal.empty` → `continue`, sem
   gravação).
-- `Relatório.xlsx` — consolidado de todas as empresas processadas
+- `Relatório.xlsx`, consolidado de todas as empresas processadas
   (`Empresa, Produtos, Serviços, Devolução, Receita, Imposto DAS`),
   gravado apenas `if summary_rows:`.
-- `Relatório_Erros.xlsx` — gravado em uma pasta `...\ERRO\` separada,
+- `Relatório_Erros.xlsx`, gravado em uma pasta `...\ERRO\` separada,
   apenas `if failed_companies:`, com colunas `{"Empresa":...,
   "Erro":...}`.
 - Nome da pasta da execução: `"Importação-<mês>-<ano>"` (singular),
-  com sufixo incremental `(2)`, `(3)`... se a pasta já existir —
+  com sufixo incremental `(2)`, `(3)`... se a pasta já existir,
   `_resolve_run_folder` nunca sobrescreve uma pasta existente.
 - Log de execução (`log\automacao importacao para o questor.log`,
   append, UTF-8).
@@ -222,7 +222,7 @@ imediata, sem retry.
 7. `JournalGenerator.resolve_run_folder()`: mesmo mecanismo de sufixo
    incremental do Fluxo A.
 8. `JournalGenerator.generate()`: para cada linha, monta os mesmos 4
-   candidatos (aqui "Produtos" usa corretamente `row["Produtos"]` —
+   candidatos (aqui "Produtos" usa corretamente `row["Produtos"]`,
    **sem** o bug do Fluxo A), filtra candidatos zerados (`is_zero`,
    com tratamento de vírgula decimal), grava `.xlsx` por empresa
    nomeado `"{empresa sanitizada} - {AAAA-MM}.xlsx"`.
